@@ -1,0 +1,27 @@
+:root {
+    --blue: #1b72e8;
+    --dark: #051e34;
+  }
+
+nav,
+.navbar-brand{
+    height: 80px;
+} 
+
+.bg-search{
+    background-color: rgb(216, 215, 215);
+}
+
+.right{
+    background-color: var(--blue);
+}
+
+.left{
+    background-color: var(--dark);
+    height: calc(100vh - 80px);
+}
+
+.main-right{
+    height: calc(100vh - 80px);
+    overflow: auto;
+}
