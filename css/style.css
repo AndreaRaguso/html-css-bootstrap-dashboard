@@ -1,8 +1,16 @@
 :root {
     --blue: #1b72e8;
     --dark: #051e34;
+    --aside: black;
+    --header: #080b12;
+    --main: #141922;
+    --footer: #282828;
+    --text-light: #686b6f;
+    --text-white: #fbfcfb;
   }
 
+
+  
 nav,
 .navbar-brand{
     height: 80px;
@@ -25,3 +33,64 @@ nav,
     height: calc(100vh - 80px);
     overflow: auto;
 }
+
+.buttons{
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 4px 9px;
+}
+
+.btn-main{
+    background-color: #165bba;
+}
+
+.btn-done{
+    background-color: #198754;
+}
+.btn-process{
+    background-color: #ffc107;
+}
+.btn-fail{
+    background-color: #dc3545;
+}
+
+.table-h{
+    height: 40px;
+}
+
+.icon{
+    color: #6c757d;
+    background-color: white;
+    border: 1px solid #6c757d;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SCROLLBAR */
+
+.col2{
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--text-white); 
+
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--text-light);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--text-light); 
+  }
